@@ -14,6 +14,11 @@
   font-size: var(--font-size-parrafo);
 }
 /* hoja casavta */
+.titulo-venta {
+  text-align: center;
+
+  font-family: var(--font-family-primaria);
+}
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -21,6 +26,11 @@
 }
 .card {
   margin: 3rem 1rem 0 1rem;
+}
+.pagina {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 /* hoja detcasavta */
 .tarjeta-detalle {
