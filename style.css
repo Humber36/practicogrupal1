@@ -1,3 +1,19 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.titulo {
+  font-size: var(--font-size-titulos);
+  font-family: var(--font-family-primaria);
+  color: var(--color2);
+}
+
+.parrafo {
+  font-size: var(--font-size-parrafo);
+}
+/* hoja casavta */
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +22,7 @@
 .card {
   margin: 3rem 1rem 0 1rem;
 }
-
+/* hoja detcasavta */
 .tarjeta-detalle {
   width: 75vw;
   display: flex;

@@ -1,0 +1,15 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.titulo {
+  font-size: var(--font-size-titulos);
+  font-family: var(--font-family-primaria);
+  color: var(--color2);
+}
+
+.parrafo {
+  font-size: var(--font-size-parrafo);
+}
