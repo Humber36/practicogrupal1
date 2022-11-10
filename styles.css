@@ -13,3 +13,21 @@
 .parrafo {
   font-size: var(--font-size-parrafo);
 }
+/* hoja casavta */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 3rem 1rem 0 1rem;
+}
+/* hoja detcasavta */
+.tarjeta-detalle {
+  width: 75vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+
+  justify-content: center;
+}
