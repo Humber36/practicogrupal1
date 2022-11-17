@@ -54,6 +54,15 @@
   display: flex;
   width: 100vw;
   justify-content: center;
+  padding: 2rem 0 2rem 0;
+
+  background-color: var(--color1);
+}
+.cardproyec {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding: 2rem 0 2rem 0;
 
   background-color: var(--color1);
 }
