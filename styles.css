@@ -36,17 +36,17 @@
 }
 /* hoja detcasavta */
 .tarjeta-detalle {
-  width: 75vw;
+  width: 60vw;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10vw;
+  margin-left: 20vw;
 
   justify-content: center;
 }
 .tarjetas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /* hoja proyecto */
