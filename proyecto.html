@@ -145,7 +145,7 @@
     </header>
     <section>
       <div class="fondo">
-        <h1 class="titulo-venta">Departamentos en POZO</h1>
+        <h1 class="titulo-venta pt-5">Departamentos en POZO</h1>
         <div class="tarjetas">
           <div class="card" style="width: 30rem">
             <img
@@ -481,14 +481,17 @@
             <p>Mensaje o consulta</p>
             <textarea
               class="form-control"
+              style="resize: none"
+              maxlength="500"
               name="mensaje"
               id="mensaje"
               cols="30"
-              rows="4"
-              placeholder="Escriba su mensaje"
+              rows="8"
+              placeholder="Escriba su mensaje (Máximo 500 caracteres)"
             ></textarea>
           </div>
-          <div class="mx-5 mt-4 mb-5">
+
+          <div class="mx-5 mt-4 mb-0 pb-5">
             <button class="button btn btn-primary">Enviar Mensaje</button>
           </div>
         </div>

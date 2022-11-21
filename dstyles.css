@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  --font-size-titulos: 3rem;
+  --font-size-subtitulos: 2rem;
+  --font-size-texto: 1.1rem;
+  --font-size-parrafo: 0.8rem;
+  --font-family-primaria: "Montserrat", sans-serif;
+  --font-family-secundaria: "Ubuntu", sans-serif;
+  --color1: #e0e1dd;
+  --color2: #778da9;
+  --color3: #415a77;
+  --color4: #1b263b;
+  --color5: #0d1b2a;
+}
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+.cuerpo {
+  font-family: "montserrat", "ubuntu", sans-serif;
+  background-color: var(--color1);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 3rem;
+}
+.error_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.error_content > div {
+  flex: 1 1 400px;
+}
+
+.error_content img {
+  width: 100%;
+  height: auto;
+}
+.title {
+  font-size: var(--font-size-titulos);
+  color: var(--color2);
+}
+.text {
+  font-size: var(--font-size-parrafo);
+  margin-top: 2rem;
+}
+.contact_form {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.contact_form label {
+  width: 100%;
+  display: block;
+  color: var(--color3);
+  font-size: 0.8rem;
+}
+.contact_form input,
+.contact_form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.contact_form button {
+  background-color: var(--color4);
+  color: var(--color1);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+.error_content iframe {
+  margin-top: 1.5rem;
+}
