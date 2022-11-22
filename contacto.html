@@ -142,9 +142,10 @@
         </div>
       </nav>
     </header>
+    <!-- aqui empieza el contacto -->
     <main class="fondo">
-      <section class="error_content">
-        <div>
+      <div class="error_content container-fluid">
+        <div class="text-center">
           <h3 class="title">Contacto</h3>
           <p class="texto">Ante cualquier consulta</p>
           <p class="texto">completa el siguiente formulario</p>
@@ -156,8 +157,12 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
+          <p class="parrafo mt-3">Av. Soldati 880 - San Miguel de Tucumán</p>
+          <p class="parrafo">Av. Aconquija 2151 - Yerba Buena</p>
+          <p class="parrafo">Av. Alem 2230 - Tafi Viejo</p>
+          <p class="parrafo">Teléfono: 428-3547</p>
         </div>
-        <div>
+        <div class="mb-5">
           <form class="contact_form">
             <label for=""> Nombre y Apellido </label>
             <input type="text" />
@@ -165,12 +170,23 @@
             <input type="text" />
             <label for="">e-mail</label>
             <input type="e-mail" />
-            <label for="">Mensaje</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
+            <div class="form-group mt-5 w-100 text-start">
+              <p>Mensaje o consulta</p>
+              <textarea
+                class="form-control"
+                style="resize: none"
+                maxlength="500"
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="8"
+                placeholder="Escriba su mensaje (Máximo 500 caracteres)"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary">Enviar</button>
           </form>
         </div>
-      </section>
+      </div>
     </main>
     <footer>
       <div class="foot me-0 row">
