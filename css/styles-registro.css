@@ -1,7 +1,7 @@
 main {
   width: 100%;
   height: 100vh;
-  background-image: url(./registroimages/edificios.jpg);
+  background-image: url(../img/registro/edificios.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
